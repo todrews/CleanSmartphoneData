@@ -33,6 +33,8 @@ The initial data sets segregated the test subjects into a "test" and "train" set
 - 'test/y_test.txt': Test labels.
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
+The variables in the file that begin with a t are in the time domain (sec) and the variables in the file that begin with a f are in the frequency domain (Hz).
+
 The final data shown in the final_stats.txt file contains the average of all mean and std variables for all subject. For each subject, the data is grouped by the activity performed.
 
 **Transformations**
